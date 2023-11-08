@@ -14,8 +14,8 @@ Decisions/Assumption during development:
 
 API endponts and there usage:
 1. **/add-new-book**
+   method: post
   description: Use this end point to add new book record.
-    method: post
    sample payload json: 
    {
      "title": "test title",
@@ -24,16 +24,19 @@ API endponts and there usage:
    }
 
 2. **/get-all-books**
-   description: Use this api end point to get all records.
    method: get
+   description: Use this api end point to get all records.
+   
 
 3. **/get-book/:bookId**
-   description: Use this end point to get specific book record with bookId.
    method: get
+   description: Use this end point to get specific book record with bookId.
+   
 
 4. **/update-book**
-   description: Use this end point to update book record.
    method: put
+   description: Use this end point to update book record.
+   
    sample payload json:
    {
     "bookId": "654b4873a101ee3d7e2449be",
@@ -43,6 +46,7 @@ API endponts and there usage:
   }
 
 5. **/delete-book/:bookId**
+    method: delete
    description: Use this end point to delete a record.
-   method: delete
+   
    
