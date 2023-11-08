@@ -2,9 +2,9 @@
 This repo contains a node.js server with crud operation using database mongoDB and global error handling.
 
 Setup:
-  clone the repo
-  npm i
-  npm start (the application by default runs on local port 3000, make sure this port is available).
+  1. clone the repo
+  2. npm i
+  3. npm start (the application by default runs on local port 3000, make sure this port is available).
 
 Decisions/Assumption during development: 
   This is a simple crud operation application. Latest avaialbe versions are used for like express, mongodb, mongoose, cors etc.
